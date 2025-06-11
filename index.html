@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <!-- Commit: Adiciona meta tag de responsividade e título completo -->
+  <!-- Adiciona meta tag de responsividade e título completo -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ConectaVoluntário - Plataforma de Conexão Voluntária Local</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!--Header-->
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <i class="fas fa-hands-helping"></i>
+          <span>ConectaVoluntário</span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#home" onclick="showPage('home')">Início</a></li>
+          <li class="nav-item"><a href="#cadastro" onclick="showPage('cadastro')">Cadastrar Necessidade</a></li>
+          <li class="nav-item"><a href="#visualizar" onclick="showPage('visualizar')">Ver Oportunidades</a></li>
+        </ul>
